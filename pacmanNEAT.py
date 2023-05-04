@@ -168,7 +168,7 @@ def continuePopulation(checkpoint_file):
     population = neat.Checkpointer.restore_checkpoint(checkpoint_file)
     population.add_reporter(neat.StdOutReporter(True))
     population.add_reporter(neat.StatisticsReporter())
-    population.add_reporter(neat.Checkpointer(1))
+    population.add_reporter(neat.Checkpointer(10))
     return population
 
 def startNEAT(configFile, max_generations):
