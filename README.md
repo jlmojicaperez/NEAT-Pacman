@@ -4,7 +4,8 @@ AI for Artificial worlds project by:
  - [Jose Mojica Perez](https://github.com/J-Mojica)
  - [Oscar Tejax](https://github.com/OskarGhost999)
 
-Read [our blog post](https://neatpacman.wordpress.com/2023/05/03/neat-pacman/) for an explanation of the project.
+# Demo (after 183 generations)
+![demo gif](./neat_pacman_demo.gif)
 
 # How to run our code
 
